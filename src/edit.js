@@ -24,7 +24,6 @@ const Edit = ({ attributes, setAttributes, isSelected }) => {
       <div className="block-content">
         {activePage === 1 && (
           <div>
-            {/* Content for Page 1 */}
             <p>
               In the realm of digital creativity and user interface design, the
               evolution of Gutenberg blocks represents a pivotal advancement in
@@ -38,22 +37,27 @@ const Edit = ({ attributes, setAttributes, isSelected }) => {
               building block, metaphorically and literally, enabling creators to
               assemble dynamic layouts that adapt to diverse content needs.
             </p>
-            
           </div>
         )}
         {activePage === 2 && (
           <div>
-            {/* Content for Page 2 */}
-            <p>At the forefront of this innovation lies
-              the aspiration to blend intuitive user experiences with robust
-              technical capabilities, ensuring seamless content creation for
-              millions of WordPress users worldwide. Each block serves as a
-              building block, metaphorically and literally, enabling creators to
-              assemble dynamic layouts that adapt to diverse content needs.</p>
-			  <img src="https://w7.pngwing.com/pngs/519/952/png-transparent-tom-and-jerry-illustration-jerry-mouse-tom-cat-nibbles-tom-and-jerry-tom-jerry-s-tom-and-jerry-mammal-heroes-cat-like-mammal-thumbnail.png"></img>
+            <p>
+              At the forefront of this innovation lies the aspiration to blend
+              intuitive user experiences with robust technical capabilities,
+              ensuring seamless content creation for millions of WordPress users
+              worldwide. Each block serves as a building block, metaphorically
+              and literally, enabling creators to assemble dynamic layouts that
+              adapt to diverse content needs.
+            </p>
+            <img src="https://w7.pngwing.com/pngs/519/952/png-transparent-tom-and-jerry-illustration-jerry-mouse-tom-cat-nibbles-tom-and-jerry-tom-jerry-s-tom-and-jerry-mammal-heroes-cat-like-mammal-thumbnail.png"></img>
           </div>
         )}
-        {/* Add more conditions for additional pages */}
+        {activePage === 3 && (
+          <div>
+           
+            <img src="https://easydrawingguides.com/wp-content/uploads/2019/11/how-to-draw-tom-from-tom-and-jerry-featured-image-1200.png"></img>
+          </div>
+        )}
       </div>
     </div>
   );
